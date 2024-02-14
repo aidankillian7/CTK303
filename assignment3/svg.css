@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+}
+#eyes {
+    animation: efade 2.0s;
+  }
+  
+  @keyframes efade {
+    0%   { transform: translate(0, -200px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #head {
+    animation: hfade 2.0s;
+    transform-origin: center;
+  }
+  
+  @keyframes hfade {
+    0%   { transform: rotate(0deg);}
+    50% { transform: rotate(180deg);}
+    100% { transform: rotate(360deg);}
+  }
+
+  #mouth {
+    animation: mfade 2.0s;
+    transform-origin: bottom;
+  }
+  
+
+  @keyframes mfade {
+    0%   { transform: scale(0.1);}
+    100% { transform: scale(1.0);}
+  }
+  #SVGCTK {
+    width: 500px;
+    display: block;
+    transition: transform .25s linear;
+    transform-origin: left top;
+    align-self: center;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    animation: zigzag 4s infinite linear;
+  }
+  
+  #SVGCTK:hover {
+    transform: scale(1.1); 
+  }
+  
+  @keyframes zigzag {
+    0%, 100% {
+      left: 0;
+    }
+    25% {
+      left: 50px;
+      top: 30px;
+    }
+    50% {
+      left: 100px;
+      top: 0;
+    }
+    75% {
+      left: 150px;
+      top: 30px;
+    }
+  }
+
+  body{
+    background-image: url(cheese.jpeg);
+    }
+  
