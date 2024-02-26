@@ -1,7 +1,14 @@
 body {
     background-image: url("groovy.jpeg");
+
   }
   
+  #move {
+    width: 95%;
+    margin-bottom: 1rem;
+    padding: 10px;
+  }
+
   #wrapper {
     margin: 1em auto;
     padding: 1em auto;
@@ -76,9 +83,3 @@ body {
     body { max-width: 1200px; margin: 0rem auto; }
     #move { width: 98%; float: right; }
   }
-    #move {
-        width: 95%;
-        margin-bottom: 1rem;
-        padding: 10px;
-      }
-    
