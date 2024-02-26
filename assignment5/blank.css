@@ -72,9 +72,7 @@ body {
     width: 130px;
   }
   
-  nav li a:hover {
-    background-color: #886593;
-  }
+ 
   
   @media all and (min-width: 50rem) {
     h1 { color:black; padding-bottom: .1rem; }
